@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60352C581E5E6ADE00726BB9 /* AFTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60352C571E5E6ADE00726BB9 /* AFTableViewController.m */; };
+		60352C5B1E5E6F0300726BB9 /* AFCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60352C5A1E5E6F0300726BB9 /* AFCollectionViewController.m */; };
+		60352C5F1E5E747800726BB9 /* AFCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60352C5E1E5E747800726BB9 /* AFCollectionViewCell.m */; };
 		6046E89F1E5D3E0000072E08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6046E89E1E5D3E0000072E08 /* main.m */; };
 		6046E8A21E5D3E0000072E08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6046E8A11E5D3E0000072E08 /* AppDelegate.m */; };
 		6046E8A51E5D3E0000072E08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6046E8A41E5D3E0000072E08 /* ViewController.m */; };
@@ -15,6 +18,11 @@
 		6046E8AD1E5D3E0000072E08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6046E8AB1E5D3E0000072E08 /* LaunchScreen.storyboard */; };
 		6046E8B81E5D3E0000072E08 /* NavigationBarGradientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6046E8B71E5D3E0000072E08 /* NavigationBarGradientTests.m */; };
 		6046E8C31E5D3E0000072E08 /* NavigationBarGradientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6046E8C21E5D3E0000072E08 /* NavigationBarGradientUITests.m */; };
+		6046E8D31E5D411E00072E08 /* AFNavigationBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6046E8D21E5D411E00072E08 /* AFNavigationBarController.m */; };
+		6046E8D61E5D41C900072E08 /* AFNabigationBarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6046E8D51E5D41C900072E08 /* AFNabigationBarTableViewController.m */; };
+		6046E8D91E5D41DD00072E08 /* AFNavigationBarCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6046E8D81E5D41DD00072E08 /* AFNavigationBarCollectionViewController.m */; };
+		6046E8DC1E5D805D00072E08 /* AFScrollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6046E8DB1E5D805D00072E08 /* AFScrollowViewController.m */; };
+		6046E8EC1E5D904600072E08 /* AFWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6046E8EB1E5D904600072E08 /* AFWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		60352C561E5E6ADE00726BB9 /* AFTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFTableViewController.h; sourceTree = "<group>"; };
+		60352C571E5E6ADE00726BB9 /* AFTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFTableViewController.m; sourceTree = "<group>"; };
+		60352C591E5E6F0300726BB9 /* AFCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCollectionViewController.h; sourceTree = "<group>"; };
+		60352C5A1E5E6F0300726BB9 /* AFCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFCollectionViewController.m; sourceTree = "<group>"; };
+		60352C5D1E5E747800726BB9 /* AFCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFCollectionViewCell.h; path = ../AFCollectionViewCell.h; sourceTree = "<group>"; };
+		60352C5E1E5E747800726BB9 /* AFCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFCollectionViewCell.m; path = ../AFCollectionViewCell.m; sourceTree = "<group>"; };
 		6046E89A1E5D3E0000072E08 /* NavigationBarGradient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationBarGradient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6046E89E1E5D3E0000072E08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6046E8A01E5D3E0000072E08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +65,16 @@
 		6046E8BE1E5D3E0000072E08 /* NavigationBarGradientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationBarGradientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6046E8C21E5D3E0000072E08 /* NavigationBarGradientUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationBarGradientUITests.m; sourceTree = "<group>"; };
 		6046E8C41E5D3E0000072E08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6046E8D11E5D411E00072E08 /* AFNavigationBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNavigationBarController.h; sourceTree = "<group>"; };
+		6046E8D21E5D411E00072E08 /* AFNavigationBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNavigationBarController.m; sourceTree = "<group>"; };
+		6046E8D41E5D41C900072E08 /* AFNabigationBarTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNabigationBarTableViewController.h; sourceTree = "<group>"; };
+		6046E8D51E5D41C900072E08 /* AFNabigationBarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNabigationBarTableViewController.m; sourceTree = "<group>"; };
+		6046E8D71E5D41DD00072E08 /* AFNavigationBarCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNavigationBarCollectionViewController.h; sourceTree = "<group>"; };
+		6046E8D81E5D41DD00072E08 /* AFNavigationBarCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNavigationBarCollectionViewController.m; sourceTree = "<group>"; };
+		6046E8DA1E5D805D00072E08 /* AFScrollowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFScrollowViewController.h; sourceTree = "<group>"; };
+		6046E8DB1E5D805D00072E08 /* AFScrollowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFScrollowViewController.m; sourceTree = "<group>"; };
+		6046E8EA1E5D904600072E08 /* AFWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFWebViewController.h; sourceTree = "<group>"; };
+		6046E8EB1E5D904600072E08 /* AFWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFWebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +102,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		60352C5C1E5E745900726BB9 /* Veiw */ = {
+			isa = PBXGroup;
+			children = (
+				60352C5D1E5E747800726BB9 /* AFCollectionViewCell.h */,
+				60352C5E1E5E747800726BB9 /* AFCollectionViewCell.m */,
+			);
+			path = Veiw;
+			sourceTree = "<group>";
+		};
 		6046E8911E5D3DFF00072E08 = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +134,20 @@
 		6046E89C1E5D3E0000072E08 /* NavigationBarGradient */ = {
 			isa = PBXGroup;
 			children = (
+				6046E8D01E5D40C600072E08 /* HFNavigationBar */,
 				6046E8A01E5D3E0000072E08 /* AppDelegate.h */,
 				6046E8A11E5D3E0000072E08 /* AppDelegate.m */,
 				6046E8A31E5D3E0000072E08 /* ViewController.h */,
 				6046E8A41E5D3E0000072E08 /* ViewController.m */,
+				6046E8DA1E5D805D00072E08 /* AFScrollowViewController.h */,
+				6046E8DB1E5D805D00072E08 /* AFScrollowViewController.m */,
+				6046E8EA1E5D904600072E08 /* AFWebViewController.h */,
+				6046E8EB1E5D904600072E08 /* AFWebViewController.m */,
+				60352C561E5E6ADE00726BB9 /* AFTableViewController.h */,
+				60352C571E5E6ADE00726BB9 /* AFTableViewController.m */,
+				60352C591E5E6F0300726BB9 /* AFCollectionViewController.h */,
+				60352C5A1E5E6F0300726BB9 /* AFCollectionViewController.m */,
+				60352C5C1E5E745900726BB9 /* Veiw */,
 				6046E8A61E5D3E0000072E08 /* Main.storyboard */,
 				6046E8A91E5D3E0000072E08 /* Assets.xcassets */,
 				6046E8AB1E5D3E0000072E08 /* LaunchScreen.storyboard */,
@@ -138,6 +181,19 @@
 				6046E8C41E5D3E0000072E08 /* Info.plist */,
 			);
 			path = NavigationBarGradientUITests;
+			sourceTree = "<group>";
+		};
+		6046E8D01E5D40C600072E08 /* HFNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				6046E8D11E5D411E00072E08 /* AFNavigationBarController.h */,
+				6046E8D21E5D411E00072E08 /* AFNavigationBarController.m */,
+				6046E8D41E5D41C900072E08 /* AFNabigationBarTableViewController.h */,
+				6046E8D51E5D41C900072E08 /* AFNabigationBarTableViewController.m */,
+				6046E8D71E5D41DD00072E08 /* AFNavigationBarCollectionViewController.h */,
+				6046E8D81E5D41DD00072E08 /* AFNavigationBarCollectionViewController.m */,
+			);
+			path = HFNavigationBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +329,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60352C581E5E6ADE00726BB9 /* AFTableViewController.m in Sources */,
 				6046E8A51E5D3E0000072E08 /* ViewController.m in Sources */,
+				6046E8D91E5D41DD00072E08 /* AFNavigationBarCollectionViewController.m in Sources */,
+				60352C5B1E5E6F0300726BB9 /* AFCollectionViewController.m in Sources */,
 				6046E8A21E5D3E0000072E08 /* AppDelegate.m in Sources */,
+				6046E8EC1E5D904600072E08 /* AFWebViewController.m in Sources */,
+				60352C5F1E5E747800726BB9 /* AFCollectionViewCell.m in Sources */,
+				6046E8D31E5D411E00072E08 /* AFNavigationBarController.m in Sources */,
 				6046E89F1E5D3E0000072E08 /* main.m in Sources */,
+				6046E8D61E5D41C900072E08 /* AFNabigationBarTableViewController.m in Sources */,
+				6046E8DC1E5D805D00072E08 /* AFScrollowViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +487,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NavigationBarGradient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IceMaple.NavigationBarGradient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -434,6 +499,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NavigationBarGradient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IceMaple.NavigationBarGradient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +571,7 @@
 				6046E8C91E5D3E0000072E08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6046E8CA1E5D3E0000072E08 /* Build configuration list for PBXNativeTarget "NavigationBarGradientTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +580,7 @@
 				6046E8CC1E5D3E0000072E08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6046E8CD1E5D3E0000072E08 /* Build configuration list for PBXNativeTarget "NavigationBarGradientUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +589,7 @@
 				6046E8CF1E5D3E0000072E08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
